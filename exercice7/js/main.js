@@ -1,1 +1,1 @@
-$("#text").css("display", "block")
+$("#text").css("display", "contents")
