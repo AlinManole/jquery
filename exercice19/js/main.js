@@ -1,4 +1,4 @@
-$("button").click(function enable_disable() {
+$("button").click(function() {
     $("input").prop('disabled', false);
 });
   
