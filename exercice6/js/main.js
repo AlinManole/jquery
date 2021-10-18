@@ -1,1 +1,1 @@
-$("span").html("Konexio")
+$("#text").html("Konexio")

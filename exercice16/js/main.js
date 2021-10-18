@@ -1,3 +1,3 @@
 $("button").click(function () {
-    $("span").html("Konexio")
+    $("#text").html("Konexio")
 })
