@@ -1,1 +1,7 @@
-$("#square").css('background-color', 'red')
+$(function () {
+    $("#square").css({
+        background : 'red'
+    })
+
+})
+    

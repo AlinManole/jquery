@@ -1,3 +1,5 @@
-$("button").click(function() {
-    displaySecretText()
-}) 
+$(function(){
+    $("button").click(function() {
+        displaySecretText()
+    }) 
+})

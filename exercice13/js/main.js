@@ -1,3 +1,6 @@
-$("button").click(function(){
-    $("#text").css("font-size", "50px")
+$(function () {
+    $("button").click(function () {
+        $("#text").css({
+            fontSize : "50px"})
+    })
 })

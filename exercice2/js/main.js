@@ -1,1 +1,3 @@
-$('#square').css('width', '500px')
+$(function( {
+    $('#square').css('width', '500px')
+}))

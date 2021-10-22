@@ -1,3 +1,6 @@
-$("button").click(function(){
-    $("#text").addClass("float-right");
+$(function () {
+    $("button").click(function () {
+        $("#text").addClass("float-right");
+    })
+
 })

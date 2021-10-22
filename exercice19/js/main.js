@@ -1,4 +1,5 @@
-$("button").click(function() {
-    $("input").prop('disabled', false);
-});
-  
+$(function() {
+    $("button").click(function() {
+        $("input").attr('disabled');
+    });
+})

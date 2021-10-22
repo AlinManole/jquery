@@ -1,4 +1,5 @@
-$("button").click(function(){
-    $("#text").hide();
-  });
-  
+$(function () {
+  $("button").click(function () {
+    $("#text").hide()
+  })
+})
