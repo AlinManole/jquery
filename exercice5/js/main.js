@@ -1,1 +1,3 @@
-$("p").addClass("float-right");
+$(function() {
+  $('#text').addClass("float-right")
+})

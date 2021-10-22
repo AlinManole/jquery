@@ -1,7 +1,7 @@
-$(function () {
-  $("button").click(function () {
+$(function() {
+  $(".btn").click(function() {
     $("#square").animate({
-      width: "500px",
-    }, 1000) 
-  });
+      width: "500px"
+    }, 1000)
+  })
 })

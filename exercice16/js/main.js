@@ -1,5 +1,5 @@
 $(function() {
-    $("button").click(function() {
-        $("#text").html("Konexio")
-    })
+  $("button").click(function() {
+    $("#text").html("Konexio!")
+  })
 })

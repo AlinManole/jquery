@@ -1,1 +1,5 @@
-$('#text').css('font-size', '50px')
+$(function() {
+  $('#text').css({
+    fontSize: "50px"
+  })
+})

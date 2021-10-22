@@ -1,7 +1,7 @@
-$(function () {
-    $("button").click(function () {
-        $("#text").animate({
-            fontSize: "50px",
-        }, 1000)
-    });
+$(function() {
+  $("button").click(function() {
+    $("#text").animate({
+      fontSize: "50px"
+    }, 1000)
+  })
 })

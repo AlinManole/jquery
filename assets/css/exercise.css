@@ -47,3 +47,33 @@ body {
     background-image: url(../img/background.jpg);
     background-size: 600px;
 }
+
+.scroller {
+    position: relative;
+    height: 250px;
+    width: 570px;
+    background: white;
+    border-radius: 5px;
+    border: solid 1px black;
+    overflow: hidden;
+}
+
+.scroller-container {
+    height: 100%;
+    width: 2000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+    border: solid 1px black;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.red-square {
+    background: red;
+    width: 200px;
+    height: 200px;
+}

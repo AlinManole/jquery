@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercice</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/exercise.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand"><img src="../assets/img/logo.png" /></a>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 offset-3 instructions">
+                <h4>Nous devons effectuer la meme animation que dans la video ci-dessous.</h4>
+                <video src="https://apcpedagogie.com/wp-content/uploads/2020/04/TP-JQUERY.mp4?_=1" controls></video>
+                <ul>
+                  <li>Dans cet exercice, vous allez créer un scroller d’image qui se déclenche lorsque le pointeur de la souris entre dans son conteneur.</li>
+                  <li>La vitesse à laquelle les images défileront sera déterminée par la distance entre le pointeur de la souris et le centre du conteneur. Le déplacement du pointeur ralentira ou accélérera l’animation en conséquence.</li>
+                  <li>Si ma souris est a droite du centre, je défile vers la droite.</li>
+                  <li>Si ma souris est a gauche du centre, je défile vers la gauche.</li>
+                </ul>
+
+                <div class="scroller">
+                  <div class="scroller-container">
+                    <div class="red-square"></div>
+                    <div class="red-square"></div>
+                    <div class="red-square"></div>
+                    <div class="red-square"></div>
+                    <div class="red-square"></div>
+                    <div class="red-square"></div>
+                    <div class="red-square"></div>
+                    <div class="red-square"></div>
+                    <div class="red-square"></div> 
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../assets/js/jquery-3.3.1.min.js"></script>
+    <script src="../assets/js/functions.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

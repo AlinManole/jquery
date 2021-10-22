@@ -1,7 +1,7 @@
-$(function () {
-    $("button").click(function () {
-        $("#square").css({
-            backgroundColor : "red"})
-})
-
+$(function() {
+  $("button").click(function() {
+    $("#square").css({
+      backgroundColor: "red"
+    })
+  })
 })

@@ -1,1 +1,5 @@
-$("#text").css("display", "contents")
+$(function() {
+  $('#text').css({
+    display: "block"
+  })
+})

@@ -1,5 +1,5 @@
-$(function () {
-    $("button").click(function () {
-        $("#text").show()
-    })
+$(function() {
+  $(".btn").click(function() {
+    $("#text").show()
+  })
 })

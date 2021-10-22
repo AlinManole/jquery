@@ -1,5 +1,7 @@
-$(function () {
-        $("button").click(function () {
-                $("#text").css("display", "block")
-        })
+$(function() {
+  $('.btn').click(function() {
+    $('#text').css({
+      display: "block"
+    })
+  })
 })

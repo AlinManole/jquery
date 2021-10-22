@@ -1,7 +1,7 @@
-$(function () {
-      $("button").click(function () {
-            $("#bg").animate({
-                  marginLeft: '100px' 
-            });
-      })
+$(function() {
+  $(".btn").click(function() {
+    $("#bg").animate({
+      marginLeft: "100px"
+    })
+  })
 })

@@ -1,7 +1,5 @@
-$(function () {
-    $("#square").css({
-        background : 'red'
-    })
-
+$(function() {
+  $('#square').css({
+    background: "red"
+  })
 })
-    

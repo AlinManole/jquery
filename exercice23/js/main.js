@@ -1,6 +1,8 @@
-$("button").click(function () {
+$(function() {
+  $("button").click(function() {
     $("#square").animate({
-        bottom: "0",
-        right: "0"
-    }), 1000
+      right: "10px",
+      bottom: "10px"
+    })
+  })
 })
